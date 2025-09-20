@@ -9,130 +9,117 @@
 <body>
 
   <header id = "top-banner" class="header-section">
-  <h1 class="main-heading">Noyan Inayatulla</h1>
-  <h2 class="group-heading">Group: SE-2423</h2>
-  <h3 class="section-heading">About Me</h3>
+    <div class="profile">
+      <img class="class-img" src="myphoto.jpg" alt="My photo">
+      <div class="profile-info">
+        <h1 class="main-heading">Noyan Inayatulla</h1>
+        <h2 class="group-heading">Group: SE-2423</h2>
+        <h3 class="section-heading">About Me</h3>
 
-  <p class="paragraph-text">
-    Hello! I am a second-year student at AITU. 
-  </p>
-</header>
+        <p class="paragraph-text">
+          Hello! I am a second-year student at AITU. 
+        </p>
+      </div>
+    </div>
+  </header>
 
 
-<section id="hobbies" class="content-section">
-<h3 class="section-heading">My Hobbies (Ordered List)</h3>
-<ol class="hobby-list">
-  <li>Running</li>
-  <li>Coding</li>
-  <li>Reading</li>
-</ol>
+  <section class="interests">
+    <div class="section-card">
+      <h2>🎯 Things I Love Doing</h2>
+      <ul class="hobby-grid">
+        <li class="hobby">
+          <div>
+            <h3> 🏃‍♂️ Running</h3>
+            <p>5-10km, park runs</p>
+          </div>
+        </li>
 
-<h3 class="section-heading">Favorite Websites (Unordered List)</h3>
-<ul class="website-list">
-  <li><a class="website-link" href="https://youtube.com" target="_blank">YouTube</a></li>
-  <li><a class="website-link" href="https://monkeytype.com">Monkeytype</a></li>
-  <li><a class="website-link" href="https://github.com">GitHub</a></li>
-</ul>
+
+        <li class="hobby">
+          <div>
+            <h3> 🖥️ Coding</h3>
+            <p>Building web applications, exploring new technologies</p>
+          </div>
+        </li>
+
+        
+        <li class="hobby">
+          <div>
+            <h3> 📚 Reading</h3>
+            <p>Fiction, non-fiction, and tech articles</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+
+    <div class="section-card">
+      <h3>🌐 Favorite Websites</h3>
+
+      <div class="site-buttons">
+        <a class="site-btn" href="https://youtube.com" target="_blank" rel="noopener">
+          <img src="https://www.google.com/s2/favicons?sz=32&domain=youtube.com" alt="">
+          YouTube
+        </a>
+        <a class="site-btn" href="https://monkeytype.com" target="_blank" rel="noopener">
+          <img src="https://www.google.com/s2/favicons?sz=32&domain=monkeytype.com" alt="">
+          Monkeytype
+        </a>
+        <a class="site-btn" href="https://github.com" target="_blank" rel="noopener">
+          <img src="https://www.google.com/s2/favicons?sz=32&domain=github.com" alt="">
+          GitHub
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <div class="schedule">
+    <section class="content-section">
+      <h2 class="section-heading" >Weekly Schedule</h2>
+      <table class="schedule-table">
+        <thead>
+          <tr>
+            <th>Subject</th>
+            <th>Day</th>
+            <th>Time</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Web Technologies</td>
+            <td>Monday</td>
+            <td>10:00–11:30</td>
+          </tr>
+          <tr>
+            <td>Software Design Patterns</td>
+            <td>Wednesday</td>
+            <td>12:00–13:30</td>
+          </tr>
+          <tr>
+            <td>English</td>
+            <td>Friday</td>
+            <td>09:00–10:30</td>
+          </tr>
+        </tbody>
+    </table>
+    </section>
+  </div>
+  <section id="contact" class="content-section">
+    <h3 class="section-heading">Contact Form</h3>
+  <form id="user-form" class="styled-form">
+    <label>Name: <input type="text"  class="form-input"></label><br>
+    <label>Email: <input type="email" class="form-input"></label><br>
+    <button type="submit" class="submit-btn">Submit</button>
+  </form>
 </section>
 
 
-<section id="photo" class="content-section">"
-<h3>My Photo & Links</h3>
-<p>
-  <img src="myphoto.jpg" alt="My photo" width="200">
-</p> 
-</section> 
-<br>
-<p>
-  Useful links:<br>
-  <a href="https://code.visualstudio.com/download">Download VS Code</a><br>
-  <a href="https://pages.github.com/">GitHub Pages</a>
-</p>
-
-<!-- Step 4-->
-<h3>Button</h3>
-<button type="button">Click Me</button>
-
-<!-- Step 5-->
-<h3>Schedule</h3>
-<table border="1" cellspacing="0" cellpadding="8">
-  <thead>
-    <tr>
-      <th>Subject</th>
-      <th>Day</th>
-      <th>Time</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Web Technologies</td>
-      <td>Monday</td>
-      <td>10:00–11:30</td>
-    </tr>
-    <tr>
-      <td>Math</td>
-      <td>Wednesday</td>
-      <td>12:00–13:30</td>
-    </tr>
-    <tr>
-      <td>English</td>
-      <td>Friday</td>
-      <td>09:00–10:30</td>
-    </tr>
-  </tbody>
-</table>
-
-<!-- Step 6 (Optional): Two-column layout using a table) -->
-<h3>Two-Column Layout (Table)</h3>
-<table border="1" width="100%" cellspacing="0" cellpadding="8">
-  <tr>
-    <td width="25%" valign="top">
-      <h4>Menu</h4>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#schedule">Schedule</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </td>
-    <td valign="top">
-      <h4 id="about">Main Content</h4>
-      <p>Simple two-column layout built with a table</p>
-    </td>
-  </tr>
-</table>
-
-<!-- Step 7-->
-<h3>Emojis</h3>
-<p>😄📚🏃‍♂️</p>
-
-
-<!-- Step 8-->
-<h3 id="contact">Contact Form</h3>
-<form>
-  <p>
-    <label>
-      Name:
-      <input type="text" name="name" required>
-    </label>
-  </p>
-  <p>
-    <label>
-      Email:
-      <input type="email" name="email" required>
-    </label>
-  </p>
-  <p>
-    <label>
-      Favorite Color:
-      <input type="color" name="color" value="#3b82f6">
-    </label>
-  </p>
-  <p>
-    <button type="submit">Submit</button>
-  </p>
-</form>
+<p class="emoji">😄📚🏃‍♂️</p>
 
 <p id="schedule"><em>End of assignment page.</em></p>
+
 
 </body>
 </html>

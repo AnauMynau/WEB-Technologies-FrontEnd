@@ -11,6 +11,7 @@ body {
     color: #ecf0f1;
     padding: 20px;
     text-align: center;
+    border-radius: 10px;
 }
 
 .main-heading {
@@ -21,4 +22,272 @@ body {
     font-size: 1.5em;
     font-weight: normal; 
 }
+
+.content-section {
+    background-color:#ffffff;
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.section-heading {
+    color: #2980b9;
+    margin-bottom: 10px;
+}
+
+.paragraph-text {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+.hobby-list, .website-list {
+    margin-left: 20px;
+}
+
+.website-link {
+    color: #2980b9;
+    text-decoration: none;
+}
+ 
+.website-link:hover {
+    text-decoration: underline;
+}
+
+
+
+/*
+==========================================================
+Form
+==========================================================
+*/
+
+.styled-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.submit-btn {
+    background-color: #2980b9;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.submit-btn:hover {
+  background-color: #3498db;
+}
+
+.profile {
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+
+.class-img {
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.profile-info h1 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.profile-info p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.emoji {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Schedule Table Styles */
+#schedule {
+    text-align: left;
+    font-size: 0.9em;
+    color: #555;
+    margin: 20px auto;
+    background: #ffffff;
+    padding:20px;
+    border-radius: 12px;
+    width: 80%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.schedule h2 {
+    text-align: center;
+    color: #2c7cb0;
+    margin-bottom: 10px;
+}
+
+.schedule table {
+    width: 100%;
+    overflow: hidden;
+    border-collapse: collapse;
+    border-radius: 10px;
+}
+
+.schedule th, .schedule td {
+    text-align: center;
+    padding: 12px;
+}
+
+.schedule thead {
+    background: #f2f6f9;
+}
+
+.schedule th {
+    color: #2c7cb0;
+    font-weight: bold;
+}
+
+.schedule tr:nth-child(even) {
+    background: #f9fcff;
+}
+
+.schedule tr:hover {
+    background: #e6f4ff;
+    transition: 0.3s;
+}
+
+.interests {
+    display: grid;
+    gap: 24px;
+    margin-top: 20px;
+    align-items: stretch;
+}
+
+.section-card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+}
+
+.section-card h2 {
+    margin: 0 0 14px;
+    text-align: center;
+    color: #2c7cb0;
+}
+
+.hobby-grid {
+    list-style: none;
+    display: grid;
+    padding: 0;
+    margin: 0;
+    gap: 14px;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.hobby {
+    display: flex;
+    gap: 12px;
+    padding: 10px;
+    background: linear-gradient(180deg, #f7fbff 0%, #ffffff 100%);
+    border-radius: 12px;
+    border: 1px solid #e6eef7;
+    transition: transform .18s ease, box-shadow .18s ease;
+}
+
+.hobby:hover {
+    transform: translateY(-2px);
+    box-shadow: (0 8px 18px rgba(0, 0, 0, 0.1));
+}
+
+
+.hobby h3 {
+    margin: 0 0 4px;
+    font-size: 1.1em;
+}
+
+.hobby p {
+    margin: 0;
+    color: #5b6b7c;
+}
+
+.site-buttons {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 14px;       
+    margin-bottom: 12px;     
+}
+
+
+.site-btn {
+    font-size: 15px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    width: 160px;
+    padding: 12px 20px;
+    background: #eaf3ff;
+    border: 1px solid #d6e7ff;
+    border-radius: 999px;
+    color: #1d4d7b;
+    text-decoration: none;
+    font-weight: 600;
+    transition: transform .15s ease, background .15s ease, box-shadow .15s ease;
+}
+
+.site-btn:hover {
+    transform: translateY(-1px);
+    background: #dff0ff;
+    box-shadow: 0 6px 16px rgba(44, 124, 176, 0.18);
+}
+
+.site-btn img {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
