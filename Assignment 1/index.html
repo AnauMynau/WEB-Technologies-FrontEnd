@@ -11,33 +11,37 @@
   <!-- Navigation Menu -->
    
 
-  <header id = "top-banner" class="header-section">
+<header id="top-banner" class="header-section">
 
-    <nav class="nav-section">
-      <div class="nav-inner">
-        <a href="#" class="nav-logo">WEB Technologies</a>
-        <ul class="nav-list">
-          <li><a href="#top-banner" class="nav-link">Home</a></li>
-          <li><a href="#top-about" class="nav-link">About</a></li>
-          <li><a href="#top-schedule" class="nav-link">Schedule</a></li>
-          <li><a href="#top-contact" class="nav-link">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-
-    <div class="profile">
-      <img class="class-img" src="myphoto.jpg" alt="My photo">
-      <div class="profile-info">
-        <h1 class="main-heading">Noyan Inayatulla</h1>
-        <h2 class="group-heading">Group: SE-2423</h2>
-        <h3 class="section-heading">About Me</h3>
-
-        <p class="paragraph-text">
-          Hello! I am a second-year student at AITU. 
-        </p>
-      </div>
+  <nav class="nav-section">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">
+        <img src="logog.jpg" alt="logo">
+      </a>
+      <ul class="nav-list">
+        <li><a href="#top-banner" class="nav-link">Home</a></li>
+        <li><a href="#top-about" class="nav-link">About</a></li>
+        <li><a href="#top-schedule" class="nav-link">Schedule</a></li>
+        <li><a href="#top-contact" class="nav-link">Contact</a></li>
+      </ul>
     </div>
-  </header>
+    <hr class="nav-hr">
+  </nav>
+
+
+
+  <div class="profile profile-right">
+    <img class="class-img" src="myphoto.jpg" alt="My photo">
+    <div class="profile-info">
+      <h1 class="main-heading">Noyan Inayatulla</h1>
+      <h2 class="group-heading">Group: SE-2423</h2>
+      <h3 class="section-heading">About Me</h3>
+      <p class="paragraph-text">Hello! I am a second-year student at AITU.</p>
+    </div>
+  </div>
+
+</header>
+
 
 
   <section id="top-about" class="interests">
@@ -90,8 +94,89 @@
     </div>
   </section>
 
+<!-- Task 1 -->
+  <section class="content-section" id="cards">
+    <h2 class="section-heading">Project Cards</h2>
+    <div class="card-row">
+      <article class="card">
+        <img src="https://picsum.photos/400/220?1" alt="">
+        <div class="card-body">
+          <h3>Landing Page</h3>
+          <p>Responsive layout with Flexbox.</p>
+          <a href="#" class="card-btn">View</a>
+        </div>
+      </article>
+      <article class="card">
+        <img src="https://picsum.photos/400/220?2" alt="">
+        <div class="card-body">
+          <h3>Todo App</h3>
+          <p>Clean UI components.</p>
+          <a href="#" class="card-btn">View</a>
+        </div>
+      </article>
+      <article class="card">
+        <img src="https://picsum.photos/400/220?3" alt="">
+        <div class="card-body">
+          <h3>Portfolio</h3>
+          <p>Grid + Flex layout.</p>
+          <a href="#" class="card-btn">View</a>
+        </div>
+      </article>
+    </div>
+  </section>
 
-  <div id="top-schedule" class="schedule">
+<!-- Task 2 -->
+
+  <section class="content-section" id="grid-layout">
+    <h2 class="section-heading">Grid Layout with Areas</h2>
+    <div class="grid-wrap">
+      <header class="g-header">Header</header>
+      <aside class="g-sidebar">Sidebar</aside>
+      <main class="g-main">Main Content</main>
+      <footer class="g-footer">Footer</footer>
+    </div>
+  </section>
+
+
+<!-- Task 3 -->
+  <section class="content-section" id="gallery">
+    <h2 class="section-heading">Image Gallery</h2>
+    <div class="gallery-grid">
+      <figure class="g-item"><img src="https://picsum.photos/500/500?11" alt=""><figcaption>Caption #1</figcaption></figure>
+      <figure class="g-item"><img src="https://picsum.photos/500/500?12" alt=""><figcaption>Caption #2</figcaption></figure>
+      <figure class="g-item"><img src="https://picsum.photos/500/500?13" alt=""><figcaption>Caption #3</figcaption></figure>
+      <figure class="g-item"><img src="https://picsum.photos/500/500?14" alt=""><figcaption>Caption #4</figcaption></figure>
+      <figure class="g-item"><img src="https://picsum.photos/500/500?15" alt=""><figcaption>Caption #5</figcaption></figure>
+      <figure class="g-item"><img src="https://picsum.photos/500/500?16" alt=""><figcaption>Caption #6</figcaption></figure>
+      <figure class="g-item"><img src="https://picsum.photos/500/500?17" alt=""><figcaption>Caption #7</figcaption></figure>
+      <figure class="g-item"><img src="https://picsum.photos/500/500?18" alt=""><figcaption>Caption #8</figcaption></figure>
+      <figure class="g-item"><img src="https://picsum.photos/500/500?19" alt=""><figcaption>Caption #9</figcaption></figure>
+    </div>
+  </section>
+
+  <!-- Task 4 -->
+  <section class="content-section" id="portfolio">
+    <h2 class="section-heading">Portfolio (Flex + Grid)</h2>
+
+    <header class="p-header">
+      <div class="p-brand">My Portfolio</div>
+      <nav class="p-nav"><a href="#">All</a><a href="#">Web</a><a href="#">UI</a></nav>
+    </header>
+
+    <div class="p-main">
+      <div class="p-projects">
+        <article class="p-card"><h3>UI Kit</h3><p>Buttons, inputs, cards.</p><button class="p-btn">Open</button></article>
+        <article class="p-card"><h3>Dashboard</h3><p>Charts and tables.</p><button class="p-btn">Open</button></article>
+        <article class="p-card"><h3>Blog Theme</h3><p>Typography focused.</p><button class="p-btn">Open</button></article>
+      </div>
+      <aside class="p-aside"><h4>About Me</h4><p>Front-end student at AITU. Love Flex & Grid.</p></aside>
+    </div>
+
+    <footer class="p-footer">© 2025 Noyan Inayatulla</footer>
+  </section>
+
+
+  <div id="schedule" class="schedule">
     <section class="content-section">
       <h2 class="section-heading" >Weekly Schedule</h2>
       <table class="schedule-table">
@@ -126,8 +211,8 @@
   <section id="top-contact" class="content-section">
     <h3 class="section-heading">Contact Form</h3>
   <form id="user-form" class="styled-form">
-    <label>Name: <input type="text"  class="form-input"></label><br>
-    <label>Email: <input type="email" class="form-input"></label><br>
+    <label>Name:  <input type="text"  class="form-input"></label><br>
+    <label>Email:  <input type="email" class="form-input"></label><br>
     <button type="submit" class="submit-btn">Submit</button>
   </form>
 </section>
